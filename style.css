@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(151, 227, 223);
+}
+
 div {
     color: rgb(0, 0, 0);
     font-weight: bold;
