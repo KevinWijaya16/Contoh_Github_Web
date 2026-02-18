@@ -1,0 +1,27 @@
+div {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: rgb(190, 255, 136);
+    border: none;
+    border-radius: 8px;
+    padding: 5px 5px;
+    margin: 10px auto;
+    cursor: pointer;
+    display: block;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+div:hover {
+    background-color: rgb(78, 112, 170);
+    transform: scale(0.95);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+
+div:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
